@@ -3,15 +3,15 @@
 Run these commands in the EC2:
 
 
-`sudo apt install nodejs`
+1 `sudo apt install nodejs`
 
 
-`sudo apt install npm`
+2 `sudo apt install npm`
 
 
-`npm install`
+3 `npm install`
 
-`node app.js`
+4 `node app.js`
 
 or Run by docker compose
 
