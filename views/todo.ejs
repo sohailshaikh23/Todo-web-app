@@ -5,7 +5,7 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #be4d25;
+            background-color: #2e01d1;
             margin: 0;
             padding: 0;
             display: flex;
@@ -15,7 +15,7 @@
         }
 
         .container {
-            background-color: #9925be;
+            background-color: #c899d0;
             border-radius: 10px;
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
             padding: 20px;
@@ -77,6 +77,7 @@
             border-radius: 5px;
             padding: 10px 20px;
             cursor: pointer;
+            margin-top: 10px; /* Added margin to adjust alignment */
         }
 
         input[type="submit"]:hover {
@@ -99,7 +100,7 @@
             <% }); %>
         </ul>
         <form action="/todo/add/" method="post">
-            <label for="newtodo">Add your new To Do here !</label>
+            <label for="newtodo">Add your new To Do here!</label>
             <input type="text" name="newtodo" id="newtodo" autofocus />
             <input type="submit" value="Add" />
         </form>
