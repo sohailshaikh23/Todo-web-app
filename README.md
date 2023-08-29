@@ -13,7 +13,5 @@ Run these commands in the EC2:
 
 4 `node app.js`
 
-or Run by docker compose
 
-test
 
