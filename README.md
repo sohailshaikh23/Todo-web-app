@@ -1,6 +1,6 @@
 # Node-todo-cicd
 
-Run these commands in the EC2 Instance:
+Run these commands in the EC2 :
 
 
 1 `sudo apt install nodejs -y`
